@@ -1,10 +1,11 @@
 const dotenv = require('dotenv');
 const SerpApi = require('google-search-results-nodejs');
 const app = require('express')();
-const PORT = process.env.PORT || 8080;
 const cors = require('cors');
 const _ = require('lodash');
 const crypto = require('crypto');
+
+const PORT = process.env.PORT || 8080;
 
 function getAuthorInfo(author_id, timestamp) {
   return new Promise((resolve, reject) => {
