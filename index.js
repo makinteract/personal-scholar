@@ -5,7 +5,7 @@ const cors = require('cors');
 const _ = require('lodash');
 const crypto = require('crypto');
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 function getAuthorInfo(author_id, timestamp) {
   return new Promise((resolve, reject) => {
