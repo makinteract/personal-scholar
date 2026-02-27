@@ -1,4 +1,4 @@
-# My Scholar
+# Personal Scholar
 
 An API wrapper that returns **citations, h-index, and papers** of a given author using data from Google Scholar.
 
